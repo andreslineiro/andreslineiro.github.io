@@ -89,5 +89,8 @@ footer.pie{
     }
     div#titulo{
     margin: 73px 99px 1px 1px;
-}
+    }
+    div#menu {
+        margin: -24px 103px;
+    }
   }
