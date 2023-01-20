@@ -87,4 +87,7 @@ footer.pie{
         background-color: #cccccc;
         margin-top: 100vh;
     }
+    div#titulo{
+    margin: 73px 99px 1px 1px;
+}
   }
