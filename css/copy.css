@@ -14,12 +14,14 @@ body{
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
     width: 90%;
+    border-radius: 20px;
 }
 
 #principal {
     width: 33%;
     background-color: #dbd8d8;
     text-align: center;
+    border-radius: 20px 0 0 20px
 }
 
 #sidebar {
