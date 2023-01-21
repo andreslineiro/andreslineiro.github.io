@@ -4,7 +4,8 @@
 }
 
 body{
-    background: url(/img/fondo.png);
+    background: url(/cv/img/fondo.png);
+    min-width: 100vh;
 }
   
 #contenedor {
@@ -31,12 +32,16 @@ body{
 
 fieldset{
     border: solid 1px rgb(33, 124, 222);
-    margin: 5px 2px 12px 3px;
+    border-radius: 10px;
+    margin: 41px 2px 12px 3px;
     font-size: 15px;
+    background: linear-gradient(#787373,50%, blue );
+
 }
 
 #field{
    margin-top: 80px;
+
 }
 
 legend{
@@ -44,25 +49,9 @@ legend{
     padding: 5px;
     background-color: #cccccc;
     border-radius: 10px;
+    background: linear-gradient(#787373, #ffffff);
 }
 
-ul li{
-    text-align: left;
-}
-
-ul li i{
-    text-align: left;
-}
-
-img#RegresarCV{
-    margin: -10px 81% 1px -2px;
-    float: left;
-    width: 11%;
-}
-div#Regresar{
-    margin: 10px 10% 1px -2px;
-    width: 100%;
-}
 #yo{
     border: solid 2px;
     border-radius: 9%;
@@ -73,21 +62,34 @@ div#Regresar{
 h1{
     margin: 10px auto;
     text-align: center;
-    background: linear-gradient(red, yellow, blue, orange);
+    font-size: 30px;
+}
+h2{
+    margin: 10px auto;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
 
 }
 
 p{
     font-size: 12px;
-    margin: 5px -0px 1px 3px;
+    margin: 5px 68px -19px 25px;
     text-align: left;
-
 }
-
+.columna1{
+    margin: 1px 8px 5px 8px;
+}
+.sobreMi{
+    font-size: 15px;
+    margin: 13px 18px 1px 18px;
+    text-align: left;
+}
 footer{
     margin-top: 1%;
     text-align: center;
-    background-color: #cccccc;
+    background: linear-gradient(#787373, #ffffff);
+
 }
 @media screen and (max-width: 500px) {
     h1{
@@ -95,8 +97,19 @@ footer{
         text-align: center;
         margin-left: 29px;
     }
+    h2{
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
     p{
-        font-size: 12px;
+        font-size: 10px;
+        text-align: left;
+        margin-left: auto;
+    }
+    .sobreMi{
+        font-size: 10px;
+        margin: 0px 6px 1px 2px;
         text-align: left;
     }
     footer.pie{
@@ -104,19 +117,10 @@ footer{
         background-color: #cccccc;
         margin-top: 100vh;
     }
-    img#RegresarCV{
-        margin: -10px 64% 1px -2px;
-        float: left;
-        width: 23%;
-    }
-    div#Regresar{
-        margin: 10px 10% 1px -2px;
-        width: 100%;
-    }
     fieldset{
         border: solid 1px rgb(33, 124, 222);
         margin: 26px 2px 0px 3px;
-        font-size: 12px;
+        font-size: 10px;
     }
 
   }
