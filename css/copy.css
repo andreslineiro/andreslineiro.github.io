@@ -1,6 +1,6 @@
 *{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   
+
 }
 
 body{
@@ -8,7 +8,7 @@ body{
     /*max-width: 100vh;
     display: inline;*/
 }
-  
+
 #contenedor {
     display: flex;
     flex-direction: row;
@@ -37,12 +37,11 @@ fieldset{
     margin: 41px 2px 12px 3px;
     font-size: 15px;
     background: linear-gradient(#787373,50%, blue );
-
+    box-shadow: 15px 15px 10px 5px rgba(0, 0, 0, 0.7);
 }
 
 #field{
    margin-top: 80px;
-
 }
 
 legend{
@@ -57,13 +56,9 @@ legend{
     border: solid 2px;
     border-radius: 9%;
     margin: 10px auto;
-   
+    box-shadow: 15px 15px 10px 5px rgba(0, 0, 0, 0.7);
 }
-img#RegresarCV {
-    margin: -10px 81% 1px -2px;
-    float: left;
-    width: 11%;
-}
+
 h1{
     margin: 10px auto;
     text-align: center;
@@ -74,7 +69,6 @@ h2{
     text-align: center;
     font-size: 25px;
     margin-bottom: 20px;
-
 }
 
 p{
@@ -82,21 +76,30 @@ p{
     margin: 5px 68px -19px 25px;
     text-align: left;
 }
+
 .columna1{
     margin: 1px 8px 5px 8px;
 }
+
 .sobreMi{
     font-size: 15px;
     margin: 13px 18px 1px 18px;
     text-align: left;
 }
+
 footer{
     margin-top: 1%;
     text-align: center;
     background: linear-gradient(#787373, #ffffff);
-
 }
-@media screen and (max-width: 500px) {
+
+img#RegresarCV {
+    margin: -10px 81% -80px -2px;
+    width: 100px;
+    position: absolute;
+}
+
+@media screen and (max-width: 600px) {
     h1{
         font-size: 20px;
         text-align: center;
@@ -126,6 +129,11 @@ footer{
         border: solid 1px rgb(33, 124, 222);
         margin: 26px 2px 0px 3px;
         font-size: 10px;
+    }
+    img#RegresarCV {
+        margin: -10px 0px 10px 10px;
+        width: 79px;
+        position: absolute; 
     }
 
   }
